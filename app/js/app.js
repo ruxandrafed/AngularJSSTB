@@ -23,7 +23,7 @@
     return {
       restrict: 'E',
       templateUrl: 'partials/book-cover.html',
-      replace: true
+      replace: true // otherwise book-cover element is block element and breaks style
     }
   })
 
